@@ -1,0 +1,28 @@
+.d{
+  padding: 126px 0;
+  &__block{
+    width: 313px;
+    height: 254px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &-title{
+      color: #1B3764;
+      text-align: center;
+      font-size: 24px;
+      font-weight: 400;
+      margin: 19px 0;
+    }
+    &-text{
+      color: #969AA0;
+      text-align: center;
+      font-size: 19px;
+      font-weight: 400;
+    }
+  }
+  &__nav{
+    display: flex;
+    column-gap: 16px;
+    justify-content: center;
+  }
+}

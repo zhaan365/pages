@@ -1,0 +1,27 @@
+.e{
+  padding: 70px 0;
+  background: #1B3764;
+  &__title{
+    color: #FFF;
+  }
+  &__text{
+    color: #B4C7E7;
+    font-size: 19px;
+    font-weight: 400;
+    margin: 54px 0 27px;
+  }
+  &__btn{
+    color: #FFF;
+    font-size: 19px;
+    font-weight: 400;
+    border: 2px solid #FFCA42;
+    padding: 18px 52px;
+    background: transparent;
+  }
+  &__nav{
+    display: flex;
+    column-gap: 200px;
+    justify-content: center;
+    align-items: center;
+  }
+}

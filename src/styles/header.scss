@@ -1,0 +1,59 @@
+.header{
+  //position: fixed;
+  //top: 0;
+  //left: 0;
+  //width: 100%;
+  padding: 20px 0;
+  background: #1B3764;
+  //z-index: 1;
+  &__icons{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+  }
+  &__box1{
+    display: flex;
+    column-gap: 35px;
+    align-items: center;
+  }
+  &__box2{
+    display: flex;
+    align-items: center;
+    column-gap: 47px;
+    &-link{
+      color: #F6F8FC;
+      font-size: 17px;
+      &:hover{
+        color: #FFCA42;
+      }
+    }
+  }
+  &__box3{
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+  }
+  &__btn{
+    color: #1B3764;
+    font-size: 19px;
+    text-transform: capitalize;
+    border: 2px solid #FFCA42;
+    background: #FFCA42;
+    padding: 18px 52px;
+  }
+  &__box4{
+    display: flex;
+    align-items: center;
+    column-gap: 51px;
+  }
+  &__box5{
+    display: flex;
+    align-items: center;
+    column-gap: 39px;
+  }
+  &__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
